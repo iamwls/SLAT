@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/loginImage1"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/loginimage" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:text="로그인"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:hint="이메일"
+        android:textColorHint="#BDBDBD"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/pwdEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="비밀번호"
+        android:textColorHint="#BDBDBD"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="IN"
+        android:textColor="#889BFD"
+        android:textSize="20dp"
+        android:background="@drawable/stroke">
+    </Button>
+
+    <Button
+        android:id="@+id/newBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="아직 계정이 없으신가요?"
+        android:textColor="#BDBDBD"
+        android:textSize="16dp"
+        android:stateListAnimator="@null">
+    </Button>
+
+    <ImageView
+        android:layout_width="236dp"
+        android:layout_height="15dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/bintextlogo"></ImageView>
+
+
+</LinearLayout>

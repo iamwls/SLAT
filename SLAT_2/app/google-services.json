@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "263178182962",
+    "firebase_url": "https://slat-e81a6.firebaseio.com",
+    "project_id": "slat-e81a6",
+    "storage_bucket": "slat-e81a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263178182962:android:d1e135960a77e250d9372b",
+        "android_client_info": {
+          "package_name": "com.example.slat_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263178182962-afgdgkap0prgtmmas2g1q5567cgvhs34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.slat_2",
+            "certificate_hash": "382e71b74f14e70efadefeab100697b1b34e472b"
+          }
+        },
+        {
+          "client_id": "263178182962-d5lb8oae8tffqde76kedd2v348blj5ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.slat_2",
+            "certificate_hash": "93c9df6a90f4b4afef4b870615981f9737a7bee1"
+          }
+        },
+        {
+          "client_id": "263178182962-svm1jppppb29k9krq38qset0j6448mtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx5cywx7ecAtjnvUYgJW15pUKJihpdKBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263178182962-svm1jppppb29k9krq38qset0j6448mtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name='SLAT_2'
+include ':app'
